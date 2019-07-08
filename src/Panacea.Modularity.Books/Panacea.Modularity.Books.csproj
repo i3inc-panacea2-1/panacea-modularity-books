@@ -41,8 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IBook.cs" />
     <Compile Include="IBooksPlugin.cs" />
+    <Compile Include="Models\Book.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -50,6 +50,9 @@
       <Version>5.1.0</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Panacea.Models">
+      <Version>0.0.5</Version>
     </PackageReference>
     <PackageReference Include="Panacea.Modularity">
       <Version>0.0.2</Version>

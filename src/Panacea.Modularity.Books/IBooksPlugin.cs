@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Panacea.Modularity.Books.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace Panacea.Modularity.Books
 {
     public interface IBooksPlugin : IPlugin
     {
-        void OpenBook(IBook book, string pluginName);
+        void OpenBook(Book book, string pluginName);
     }
 }
