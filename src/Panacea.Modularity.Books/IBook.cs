@@ -24,7 +24,7 @@ namespace Panacea.Modularity.Books
 
     }
 
-    public class IDataUrl
+    public interface IDataUrl
     {
         string Url { get; set; }
 
